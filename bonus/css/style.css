@@ -66,6 +66,9 @@ header{
         margin: 0 0 0 5px;
     }
 
+    .tools > a > i:hover{
+        color: black;
+    }
 
 /* Main Rules */
 main{
@@ -139,8 +142,13 @@ main{
         justify-content: center;
         align-items: center;
         background-color: white;
+        cursor: pointer;
     }
 
+    .heart-container:hover .heart{
+        color: red;
+
+    }
         .heart-container > span{
             font-size: 24px;
         }
