@@ -125,4 +125,39 @@ header{
 footer{
     background-color: #1a1a1a;
     height: 80px;
+    padding-top: 20px;
 }
+
+.info-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+    .information > .name{
+        color: white;
+        font-size: 13px;
+        margin-bottom: 3px;
+    }
+
+    .information > .link > a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+
+    
+    .social{
+        text-align: center;
+        color: white;
+    }
+
+    .social > .text{
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .social > .icons > a{
+        margin: 0 2px;
+        text-decoration: none;
+        color: white;
+    }
