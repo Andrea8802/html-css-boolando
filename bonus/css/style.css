@@ -22,6 +22,7 @@ header{
     width: 100%;
     position: fixed;
     z-index: 500;
+    box-shadow: 0px 0px 10px grey;
 }
 
     .top-bar{
@@ -66,9 +67,10 @@ header{
         margin: 0 0 0 5px;
     }
 
-    .tools > a > i:hover{
+    .tools > a:hover{
         color: black;
     }
+
 
 /* Main Rules */
 main{
@@ -86,6 +88,7 @@ main{
     width: calc(100% / 3 - 14px);
     margin: 20px 7px;
     position: relative;
+    height: 480px;
 
 }
 
@@ -144,12 +147,12 @@ main{
         cursor: pointer;
     }
 
-    .heart-container:hover .heart{
-        color: red;
-
-    }
         .heart-container > span{
             font-size: 24px;
+        }
+
+        .heart-container:hover{
+            color:red;
         }
 
     .testo{
